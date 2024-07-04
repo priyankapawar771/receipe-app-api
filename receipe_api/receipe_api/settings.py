@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'core',
+    'firstapp'
 ]
 
 MIDDLEWARE = [
@@ -79,6 +81,14 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     # 'NAME': BASE_DIR / 'db.sqlite3',
+    #     'HOST': 'jdbc:postgresql://localhost:5431/sms',
+    #     'NAME': 'student_managment_system',
+    #     'USER': 'postgres',
+    #     'PASSWORD': 'postgres',
+    # }
 }
 
 
